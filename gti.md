@@ -3,7 +3,7 @@
 **##初始化**
 1.git init在本地创建git文件夹
 ***直接在github上创建仓库再拉取到本地会更简单，而且不会因README勾错而出现版本冲突***
-2. git config user.name "name"
+2.git config user.name "name"
 gti config user.   email "e@mail.com"输入信息
 ***邮箱必须对应gtihub账号否则提交代码可能会被拒绝***
 3.touch 名字.md创建文件
