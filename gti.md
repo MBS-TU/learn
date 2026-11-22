@@ -21,8 +21,8 @@ git log --oneline一行一条历史
 6.git restore readme.md取消本次修改
 git restore --staged readme.md保留修改并撤出暂存
 git restore --staged --worktree readme.md回到最后一次提交的状态
-git restore --source=HEAD~1 readme.md把上一次提交里的文件，直接拉到现在的工作区里
-注：HEAD 代表当前最新提交，HEAD~1 代表上一次提交，HEAD~2 是上两次，依此类推
+git restore --source=HEAD1 readme.md把上一次提交里的文件，直接拉到现在的工作区里
+注：HEAD 代表当前最新提交，HEAD1 代表上一次提交，HEAD2 是上两次，依此类推
 ***提交指提交到本地仓库***
 ***以上指令基本都能在vscode上实现，且不用代码，但是可以在终端或git自带的程序使用。使用agent返回原先版本可以直接找图标相应提交复制提交哈希再给ai***
 **##分支操作**
