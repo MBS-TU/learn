@@ -23,5 +23,15 @@ git restore --staged readme.md保留修改并撤出暂存
 git restore --staged --worktree readme.md回到最后一次提交的状态
 git restore --source=HEAD~1 readme.md把上一次提交里的文件，直接拉到现在的工作区里
 注：HEAD 代表当前最新提交，HEAD~1 代表上一次提交，HEAD~2 是上两次，依此类推
-***提交指提交到本地***
-***以上指令基本都能在vscode上实现，且不用代码，但是可以在终端或git自带的程序使用***
+***提交指提交到本地仓库***
+***以上指令基本都能在vscode上实现，且不用代码，但是可以在终端或git自带的程序使用。使用agent返回原先版本可以直接找图标相应提交复制提交哈希再给ai***
+**##分支操作**
+1.git branch列出所有分支
+git branch dev创建名为 dev 的新分支
+git branch -d dev删除分支
+***vscode可以直接在本地创建分支，记住要推送，删除时要把origin也删掉，git不允许删除当前所在的分支，删除前要切换所在分支***
+2.git checkout -b dev或git switch -c dev直接创建dev并切换分支
+git checkout dev或git switch dev切换分支
+3.gti switch main
+gti merge dev合并代码，dev是被合并的一方
+**##
