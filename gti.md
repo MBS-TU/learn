@@ -60,3 +60,28 @@ git checkout dev或git switch dev切换分支
 
 3.gti switch main
 gti merge dev合并代码，dev是被合并的一方
+
+
+**##远程协作**
+
+1.SSH KEY
+
+ssh-keygen -t rsa -C "your@email.com或者写ssh-keygen -t rsa -b 4096 -C "your@email.com  后者有更长的密钥长度
+
+*vscode会询问保存位置和使用密码，一般不设使用密码，否则每次调用都要输密码*
+
+cat ~/.ssh/id_rsa.pub复制公钥
+
+GitHub → Settings → SSH and GPG keys → New SSH key → 粘贴公钥
+
+2.'git remote add 名字 URL'  连接远端仓库
+
+'git push  分支名'  把本地推送到远端
+
+3.'git clone URL'  克隆仓库
+
+4.'git fetch 仓库名'  查看远端更新内容，但不覆盖本地代码
+
+5.'git pull 仓库名 分支名'  拉取仓库并覆盖
+
+***以上还是能用vscode简易执行***
