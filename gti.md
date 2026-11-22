@@ -73,4 +73,12 @@ cat ~/.ssh/id_rsa.pub复制公钥
 
 GitHub → Settings → SSH and GPG keys → New SSH key → 粘贴公钥
 
-2.
+2.'git remote add 名字 URL'  连接远端仓库
+
+'git push  分支名'  把本地推送到远端
+
+3.'git clone URL'  克隆仓库
+
+4.'git fetch 仓库名'  查看远端更新内容，但不覆盖本地代码
+
+5.'git pull 仓库名 分支名'  拉取仓库并覆盖
