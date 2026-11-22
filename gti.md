@@ -85,3 +85,9 @@ GitHub → Settings → SSH and GPG keys → New SSH key → 粘贴公钥
 5.'git pull 仓库名 分支名'  拉取仓库并覆盖
 
 ***以上还是能用vscode简易执行***
+
+**##多人协作**
+
+若没有权限，要先creat fork复制地址，之后在本地复制一份项目，创建一个新分支再进行修改和编写，修改后将母项目代码进行同步，若有冲突要在分支上修改好，若无则推送到github上再pull request，经管理员审核后才能合并到main
+
+有权限也不能直接push到main,仍需要在分支同步代码，修改冲突，再经项目经理审核后并入主干
