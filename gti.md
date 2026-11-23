@@ -1,6 +1,6 @@
 # git使用
-##linux  命令
-**##初始化**
+## linux  命令
+**## 初始化**
 
 1.git init在本地创建git文件夹
 
@@ -18,7 +18,7 @@ echo"内容">名字.md写入内容
 
 echo "第二行" >> readme.md添加内容
 
-**##日常操作**
+**## 日常操作**
 
 1.git add file.txt — 暂存单个文件
 
@@ -47,7 +47,7 @@ git restore --source=HEAD1 readme.md把上一次提交里的文件，直接拉�
 
 ***提交指提交到本地仓库，以上指令基本都能在vscode上实现，且不用代码，但是可以在终端或git自带的程序使用。使用agent返回原先版本可以直接找相应提交，复制提交哈希再给ai***
 
-**##分支操作**
+**## 分支操作**
 
 1.git branch列出所有分支
 git branch dev创建名为 dev 的新分支
@@ -62,7 +62,7 @@ git checkout dev或git switch dev切换分支
 gti merge dev合并代码，dev是被合并的一方
 
 
-**##远程协作**
+**## 远程协作**
 
 1.SSH KEY
 
@@ -86,7 +86,7 @@ GitHub → Settings → SSH and GPG keys → New SSH key → 粘贴公钥
 
 ***以上还是能用vscode简易执行***
 
-**##多人协作**
+**## 多人协作**
 
 若没有权限，要先creat fork复制地址，之后在本地复制一份项目，创建一个新分支再进行修改和编写，修改后将母项目代码进行同步，若有冲突要在分支上修改好，若无则推送到github上再pull request，经管理员审核后才能合并到main
 
